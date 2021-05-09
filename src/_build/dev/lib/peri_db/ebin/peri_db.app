@@ -1,0 +1,9 @@
+{application,peri_db,
+             [{applications,[kernel,stdlib,elixir,logger,ecto_sql,postgrex]},
+              {description,"peri_db"},
+              {modules,['Elixir.PeriDb','Elixir.PeriDb.Application',
+                        'Elixir.PeriDb.Post','Elixir.PeriDb.Posts',
+                        'Elixir.PeriDb.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PeriDb.Application',[]}}]}.

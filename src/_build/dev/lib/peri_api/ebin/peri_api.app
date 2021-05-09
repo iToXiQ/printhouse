@@ -1,0 +1,9 @@
+{application,peri_api,
+             [{applications,[kernel,stdlib,elixir,logger,poison,plug,cowboy,
+                             plug_cowboy,peri_db]},
+              {description,"peri_api"},
+              {modules,['Elixir.PeriApi','Elixir.PeriApi.Application',
+                        'Elixir.PeriApi.Endpoint','Elixir.PeriApi.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PeriApi.Application',[]}}]}.
